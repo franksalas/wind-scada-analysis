@@ -111,7 +111,7 @@ if not os.path.exists(pkl_directory_saves):
     os.makedirs(pkl_directory_saves)
     
 ## plot image save
-img_directory_saves = os.path.join( ..','reports','figures','img/')
+img_directory_saves = os.path.join( '..','reports','figures','img/')
 # create directory, if it does not exist                                 
 if not os.path.exists(img_directory_saves):
     os.makedirs(img_directory_saves)
